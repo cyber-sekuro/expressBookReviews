@@ -1,0 +1,11 @@
+curl.exe -sS -i -b "D:\Coursera\session_cookie.txt" -X DELETE "http://localhost:5000/customer/auth/review/8"
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 59
+ETag: W/"3b-tFL9N9IacM21zu8TKQKpF5jb+yI"
+Date: Mon, 26 Oct 2026 14:16:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Book review deleted successfully","reviews":{}}
